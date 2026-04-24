@@ -46,7 +46,7 @@ PEBBLE_SDK_ROOT = '/home/aidan/.pebble-sdk/SDKs/current/sdk-core/pebble'
 PLATFORM = {'NAME': 'aplite', 'MAX_APP_BINARY_SIZE': 65536, 'MAX_APP_MEMORY_SIZE': 24576, 'MAX_WORKER_MEMORY_SIZE': 10240, 'MAX_RESOURCES_SIZE_APPSTORE': 131072, 'MAX_RESOURCES_SIZE_APPSTORE_2_X': 98304, 'MAX_RESOURCES_SIZE': 524288, 'DEFINES': ['PBL_PLATFORM_APLITE', 'PBL_BW', 'PBL_RECT', 'PBL_COMPASS', 'PBL_DISPLAY_WIDTH=144', 'PBL_DISPLAY_HEIGHT=168', 'PBL_SDK_FROZEN'], 'FROZEN_AT_REVISION': 81, 'BUILD_DIR': 'aplite', 'BUNDLE_BIN_DIR': 'aplite', 'ADDITIONAL_TEXT_LINES_FOR_PEBBLE_H': [], 'MAX_FONT_GLYPH_SIZE': 256, 'TAGS': ['aplite', 'bw', 'rect', 'compass', '144w', '168h']}
 PLATFORM_NAME = 'aplite'
 PREFIX = '/usr/local'
-PROJECT_INFO = {'displayName': 'emstime', 'uuid': 'a8da30c6-5dfe-43e3-b42b-51e10fa9e72b', 'sdkVersion': '3', 'enableMultiJS': True, 'targetPlatforms': ['aplite', 'basalt', 'chalk', 'diorite', 'emery', 'flint', 'gabbro'], 'watchapp': {'watchface': False}, 'messageKeys': {'dummy': 10000}, 'resources': {'media': []}, 'name': 'emstime', 'shortName': 'emstime', 'longName': 'emstime', 'versionLabel': '1.0', 'companyName': 'MakeAwesomeHappen', 'appKeys': {'dummy': 10000}}
+PROJECT_INFO = {'displayName': 'emstime', 'uuid': 'a8da30c6-5dfe-43e3-b42b-51e10fa9e72b', 'sdkVersion': '3', 'enableMultiJS': True, 'targetPlatforms': ['aplite', 'basalt', 'chalk', 'diorite', 'emery', 'flint', 'gabbro'], 'watchapp': {'watchface': False}, 'messageKeys': {'dummy': 10000}, 'resources': {'media': []}, 'name': 'emstime', 'shortName': 'emstime', 'longName': 'emstime', 'versionLabel': '1.0', 'companyName': 'Aidan LeMay', 'appKeys': {'dummy': 10000}}
 REQUESTED_PLATFORMS = ['aplite', 'basalt', 'chalk', 'diorite', 'emery', 'flint', 'gabbro']
 RESOURCES_JSON = []
 RPATH_ST = '-Wl,-rpath,%s'
@@ -61,7 +61,7 @@ STLIB_MARKER = None
 STLIB_ST = '-l%s'
 SUPPORTED_PLATFORMS = ['aplite', 'gabbro', 'emery', 'basalt', 'chalk', 'flint', 'diorite']
 TARGET_PLATFORMS = ['gabbro', 'flint', 'emery', 'diorite', 'chalk', 'basalt', 'aplite']
-TIMESTAMP = 1777044766
+TIMESTAMP = 1777044845
 USE_GROUPS = True
 VERBOSE = 0
 WEBPACK = ['/home/aidan/.pebble-sdk/SDKs/current/node_modules/.bin/webpack']

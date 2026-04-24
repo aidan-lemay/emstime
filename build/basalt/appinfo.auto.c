@@ -10,7 +10,7 @@ const PebbleProcessInfo __pbl_app_info __attribute__ ((section (".pbl_header")))
   .offset = 0xb6b6b6b6,
   .crc = 0xb6b6b6b6,
   .name = "emstime",
-  .company = "MakeAwesomeHappen",
+  .company = "Aidan LeMay",
   .icon_resource_id = DEFAULT_MENU_ICON,
   .sym_table_addr = 0xA7A7A7A7,
   .flags = PROCESS_INFO_PLATFORM_BASALT,
