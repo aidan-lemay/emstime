@@ -3,6 +3,9 @@
 static Window *s_window;
 static TextLayer *s_layer_24h, *s_layer_dateLong, *s_layer_dateShort, *s_layer_12h;
 
+static GColor s_bg_color = GColorBlack;
+static GColor s_fg_color = GColorWhite;
+
 // Buffer to hold our formatted time/date strings
 static char s_time_buffer[64];
 
@@ -50,21 +53,29 @@ static void prv_window_load(Window *window) {
   text_layer_set_text_alignment(layers[0], GTextAlignmentCenter);
   text_layer_set_font(layers[0], fonts_get_system_font(FONT_KEY_GOTHIC_28_BOLD));
   layer_add_child(window_layer, text_layer_get_layer(layers[0]));
+  text_layer_set_background_color(layers[0], GColorClear);
+  text_layer_set_text_color(layers[0], s_fg_color);
 
   // Long Date
   text_layer_set_text_alignment(layers[1], GTextAlignmentCenter);
   text_layer_set_font(layers[1], fonts_get_system_font(FONT_KEY_GOTHIC_24_BOLD));
   layer_add_child(window_layer, text_layer_get_layer(layers[1]));
+  text_layer_set_background_color(layers[1], GColorClear);
+  text_layer_set_text_color(layers[1], s_fg_color);
 
   // Short Date
   text_layer_set_text_alignment(layers[2], GTextAlignmentCenter);
   text_layer_set_font(layers[2], fonts_get_system_font(FONT_KEY_GOTHIC_24_BOLD));
   layer_add_child(window_layer, text_layer_get_layer(layers[2]));
+  text_layer_set_background_color(layers[2], GColorClear);
+  text_layer_set_text_color(layers[2], s_fg_color);
 
   // 12hr Time
   text_layer_set_text_alignment(layers[3], GTextAlignmentCenter);
   text_layer_set_font(layers[3], fonts_get_system_font(FONT_KEY_GOTHIC_28_BOLD));
   layer_add_child(window_layer, text_layer_get_layer(layers[3]));
+  text_layer_set_background_color(layers[3], GColorClear);
+  text_layer_set_text_color(layers[3], s_fg_color);
 
   update_time();
 }
