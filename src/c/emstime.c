@@ -15,7 +15,7 @@ static void update_time() {
 
   static char b24[10], bLong[32], bShort[16], b12[10];
   
-  strftime(b24, sizeof(b24), "%H:%M", tick_time);
+  strftime(b24, sizeof(b24), "%H%M", tick_time);
   strftime(bLong, sizeof(bLong), "%A, %B %d", tick_time);
   strftime(bShort, sizeof(bShort), "%m/%d/%Y", tick_time);
   strftime(b12, sizeof(b12), "%I:%M %p", tick_time);

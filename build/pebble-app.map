@@ -1448,7 +1448,7 @@ LOAD /home/aidan/.pebble-sdk/SDKs/4.9.148/toolchain/arm-none-eabi/bin/../lib/gcc
  .note.gnu.build-id
                 0x00000084       0x24 linker stubs
 
-.text           0x000000a8      0x49c
+.text           0x000000a8      0x49b
  *(.text)
  .text          0x000000a8       0x14 /home/aidan/.pebble-sdk/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmp7jpKUopebble.o)
  *(.text.*)
@@ -1531,10 +1531,10 @@ LOAD /home/aidan/.pebble-sdk/SDKs/4.9.148/toolchain/arm-none-eabi/bin/../lib/gcc
  *(.rodata)
  *(.rodata*)
  .rodata.update_time.str1.1
-                0x000004ec       0x58 src/c/emstime.c.57.o
-                                 0x22 (size before relaxing)
+                0x000004ec       0x57 src/c/emstime.c.57.o
+                                 0x21 (size before relaxing)
  .rodata.prv_window_load.str1.1
-                0x00000544       0x36 src/c/emstime.c.57.o
+                0x00000543       0x36 src/c/emstime.c.57.o
 
 .glue_7         0x00000544        0x0
  .glue_7        0x00000544        0x0 linker stubs
