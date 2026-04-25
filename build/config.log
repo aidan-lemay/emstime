@@ -1,4 +1,4 @@
-# project  configured on Fri Apr 24 11:36:47 2026 by
+# project  configured on Sat Apr 25 19:42:36 2026 by
 # waf 2.1.4 (abi 20, python 30d0df0 on linux)
 # using /home/aidan/.pebble-sdk/SDKs/current/sdk-core/pebble/waf configure
 #
@@ -18,7 +18,7 @@ Found Pebble SDK for gabbro in:
 ----------------------------------------
 Checking for program 'gcc, cc'
 arm-none-eabi-gcc
-find program=['gcc', 'cc'] paths=['/var/tmp/pebble-sdk/SDKs/4.9.148/toolchain/moddable-tools', '/home/aidan/.pebble-sdk/SDKs/4.9.148/toolchain/arm-none-eabi/bin', '/home/aidan/.local/share/uv/tools/pebble-tool/lib/python3.13/site-packages/pebble_tool/commands/sdk', '/home/aidan/.pebble-sdk/SDKs/4.9.148/toolchain/bin', '/home/aidan/.local/bin', '/usr/local/bin', '/usr/bin', '/bin', '/usr/local/sbin', '/var/lib/flatpak/exports/bin', '/usr/bin/site_perl', '/usr/bin/vendor_perl', '/usr/bin/core_perl', '/opt/rocm/bin'] var='CC' -> ['arm-none-eabi-gcc']
+find program=['gcc', 'cc'] paths=['/var/tmp/pebble-sdk/SDKs/4.9.148/toolchain/moddable-tools', '/home/aidan/.pebble-sdk/SDKs/4.9.148/toolchain/arm-none-eabi/bin', '/home/aidan/.local/share/uv/tools/pebble-tool/lib/python3.13/site-packages/pebble_tool/commands/sdk', '/home/aidan/.pebble-sdk/SDKs/4.9.148/toolchain/bin', '/home/aidan/miniforge3/condabin', '/usr/local/bin', '/usr/bin', '/bin', '/usr/local/sbin', '/var/lib/flatpak/exports/bin', '/usr/bin/site_perl', '/usr/bin/vendor_perl', '/usr/bin/core_perl', '/var/lib/snapd/snap/bin', '/home/aidan/.local/bin', '/home/aidan/.local/bin'] var='CC' -> ['arm-none-eabi-gcc']
 ['arm-none-eabi-gcc', '-dM', '-E', '-']
 out: #define __DBL_MIN_EXP__ (-1021)
 #define __HQ_FBIT__ 15
@@ -427,14 +427,14 @@ out: #define __DBL_MIN_EXP__ (-1021)
 ----------------------------------------
 Checking for program 'ar'
 arm-none-eabi-ar
-find program=['ar'] paths=['/var/tmp/pebble-sdk/SDKs/4.9.148/toolchain/moddable-tools', '/home/aidan/.pebble-sdk/SDKs/4.9.148/toolchain/arm-none-eabi/bin', '/home/aidan/.local/share/uv/tools/pebble-tool/lib/python3.13/site-packages/pebble_tool/commands/sdk', '/home/aidan/.pebble-sdk/SDKs/4.9.148/toolchain/bin', '/home/aidan/.local/bin', '/usr/local/bin', '/usr/bin', '/bin', '/usr/local/sbin', '/var/lib/flatpak/exports/bin', '/usr/bin/site_perl', '/usr/bin/vendor_perl', '/usr/bin/core_perl', '/opt/rocm/bin'] var='AR' -> ['arm-none-eabi-ar']
+find program=['ar'] paths=['/var/tmp/pebble-sdk/SDKs/4.9.148/toolchain/moddable-tools', '/home/aidan/.pebble-sdk/SDKs/4.9.148/toolchain/arm-none-eabi/bin', '/home/aidan/.local/share/uv/tools/pebble-tool/lib/python3.13/site-packages/pebble_tool/commands/sdk', '/home/aidan/.pebble-sdk/SDKs/4.9.148/toolchain/bin', '/home/aidan/miniforge3/condabin', '/usr/local/bin', '/usr/bin', '/bin', '/usr/local/sbin', '/var/lib/flatpak/exports/bin', '/usr/bin/site_perl', '/usr/bin/vendor_perl', '/usr/bin/core_perl', '/var/lib/snapd/snap/bin', '/home/aidan/.local/bin', '/home/aidan/.local/bin'] var='AR' -> ['arm-none-eabi-ar']
 ----------------------------------------
 Found Pebble SDK for flint in:
 /home/aidan/.pebble-sdk/SDKs/current/sdk-core/pebble/flint
 ----------------------------------------
 Checking for program 'gcc, cc'
 arm-none-eabi-gcc
-find program=['gcc', 'cc'] paths=['/var/tmp/pebble-sdk/SDKs/4.9.148/toolchain/moddable-tools', '/home/aidan/.pebble-sdk/SDKs/4.9.148/toolchain/arm-none-eabi/bin', '/home/aidan/.local/share/uv/tools/pebble-tool/lib/python3.13/site-packages/pebble_tool/commands/sdk', '/home/aidan/.pebble-sdk/SDKs/4.9.148/toolchain/bin', '/home/aidan/.local/bin', '/usr/local/bin', '/usr/bin', '/bin', '/usr/local/sbin', '/var/lib/flatpak/exports/bin', '/usr/bin/site_perl', '/usr/bin/vendor_perl', '/usr/bin/core_perl', '/opt/rocm/bin'] var='CC' -> ['arm-none-eabi-gcc']
+find program=['gcc', 'cc'] paths=['/var/tmp/pebble-sdk/SDKs/4.9.148/toolchain/moddable-tools', '/home/aidan/.pebble-sdk/SDKs/4.9.148/toolchain/arm-none-eabi/bin', '/home/aidan/.local/share/uv/tools/pebble-tool/lib/python3.13/site-packages/pebble_tool/commands/sdk', '/home/aidan/.pebble-sdk/SDKs/4.9.148/toolchain/bin', '/home/aidan/miniforge3/condabin', '/usr/local/bin', '/usr/bin', '/bin', '/usr/local/sbin', '/var/lib/flatpak/exports/bin', '/usr/bin/site_perl', '/usr/bin/vendor_perl', '/usr/bin/core_perl', '/var/lib/snapd/snap/bin', '/home/aidan/.local/bin', '/home/aidan/.local/bin'] var='CC' -> ['arm-none-eabi-gcc']
 ['arm-none-eabi-gcc', '-dM', '-E', '-']
 out: #define __DBL_MIN_EXP__ (-1021)
 #define __HQ_FBIT__ 15
@@ -843,14 +843,14 @@ out: #define __DBL_MIN_EXP__ (-1021)
 ----------------------------------------
 Checking for program 'ar'
 arm-none-eabi-ar
-find program=['ar'] paths=['/var/tmp/pebble-sdk/SDKs/4.9.148/toolchain/moddable-tools', '/home/aidan/.pebble-sdk/SDKs/4.9.148/toolchain/arm-none-eabi/bin', '/home/aidan/.local/share/uv/tools/pebble-tool/lib/python3.13/site-packages/pebble_tool/commands/sdk', '/home/aidan/.pebble-sdk/SDKs/4.9.148/toolchain/bin', '/home/aidan/.local/bin', '/usr/local/bin', '/usr/bin', '/bin', '/usr/local/sbin', '/var/lib/flatpak/exports/bin', '/usr/bin/site_perl', '/usr/bin/vendor_perl', '/usr/bin/core_perl', '/opt/rocm/bin'] var='AR' -> ['arm-none-eabi-ar']
+find program=['ar'] paths=['/var/tmp/pebble-sdk/SDKs/4.9.148/toolchain/moddable-tools', '/home/aidan/.pebble-sdk/SDKs/4.9.148/toolchain/arm-none-eabi/bin', '/home/aidan/.local/share/uv/tools/pebble-tool/lib/python3.13/site-packages/pebble_tool/commands/sdk', '/home/aidan/.pebble-sdk/SDKs/4.9.148/toolchain/bin', '/home/aidan/miniforge3/condabin', '/usr/local/bin', '/usr/bin', '/bin', '/usr/local/sbin', '/var/lib/flatpak/exports/bin', '/usr/bin/site_perl', '/usr/bin/vendor_perl', '/usr/bin/core_perl', '/var/lib/snapd/snap/bin', '/home/aidan/.local/bin', '/home/aidan/.local/bin'] var='AR' -> ['arm-none-eabi-ar']
 ----------------------------------------
 Found Pebble SDK for emery in:
 /home/aidan/.pebble-sdk/SDKs/current/sdk-core/pebble/emery
 ----------------------------------------
 Checking for program 'gcc, cc'
 arm-none-eabi-gcc
-find program=['gcc', 'cc'] paths=['/var/tmp/pebble-sdk/SDKs/4.9.148/toolchain/moddable-tools', '/home/aidan/.pebble-sdk/SDKs/4.9.148/toolchain/arm-none-eabi/bin', '/home/aidan/.local/share/uv/tools/pebble-tool/lib/python3.13/site-packages/pebble_tool/commands/sdk', '/home/aidan/.pebble-sdk/SDKs/4.9.148/toolchain/bin', '/home/aidan/.local/bin', '/usr/local/bin', '/usr/bin', '/bin', '/usr/local/sbin', '/var/lib/flatpak/exports/bin', '/usr/bin/site_perl', '/usr/bin/vendor_perl', '/usr/bin/core_perl', '/opt/rocm/bin'] var='CC' -> ['arm-none-eabi-gcc']
+find program=['gcc', 'cc'] paths=['/var/tmp/pebble-sdk/SDKs/4.9.148/toolchain/moddable-tools', '/home/aidan/.pebble-sdk/SDKs/4.9.148/toolchain/arm-none-eabi/bin', '/home/aidan/.local/share/uv/tools/pebble-tool/lib/python3.13/site-packages/pebble_tool/commands/sdk', '/home/aidan/.pebble-sdk/SDKs/4.9.148/toolchain/bin', '/home/aidan/miniforge3/condabin', '/usr/local/bin', '/usr/bin', '/bin', '/usr/local/sbin', '/var/lib/flatpak/exports/bin', '/usr/bin/site_perl', '/usr/bin/vendor_perl', '/usr/bin/core_perl', '/var/lib/snapd/snap/bin', '/home/aidan/.local/bin', '/home/aidan/.local/bin'] var='CC' -> ['arm-none-eabi-gcc']
 ['arm-none-eabi-gcc', '-dM', '-E', '-']
 out: #define __DBL_MIN_EXP__ (-1021)
 #define __HQ_FBIT__ 15
@@ -1259,14 +1259,14 @@ out: #define __DBL_MIN_EXP__ (-1021)
 ----------------------------------------
 Checking for program 'ar'
 arm-none-eabi-ar
-find program=['ar'] paths=['/var/tmp/pebble-sdk/SDKs/4.9.148/toolchain/moddable-tools', '/home/aidan/.pebble-sdk/SDKs/4.9.148/toolchain/arm-none-eabi/bin', '/home/aidan/.local/share/uv/tools/pebble-tool/lib/python3.13/site-packages/pebble_tool/commands/sdk', '/home/aidan/.pebble-sdk/SDKs/4.9.148/toolchain/bin', '/home/aidan/.local/bin', '/usr/local/bin', '/usr/bin', '/bin', '/usr/local/sbin', '/var/lib/flatpak/exports/bin', '/usr/bin/site_perl', '/usr/bin/vendor_perl', '/usr/bin/core_perl', '/opt/rocm/bin'] var='AR' -> ['arm-none-eabi-ar']
+find program=['ar'] paths=['/var/tmp/pebble-sdk/SDKs/4.9.148/toolchain/moddable-tools', '/home/aidan/.pebble-sdk/SDKs/4.9.148/toolchain/arm-none-eabi/bin', '/home/aidan/.local/share/uv/tools/pebble-tool/lib/python3.13/site-packages/pebble_tool/commands/sdk', '/home/aidan/.pebble-sdk/SDKs/4.9.148/toolchain/bin', '/home/aidan/miniforge3/condabin', '/usr/local/bin', '/usr/bin', '/bin', '/usr/local/sbin', '/var/lib/flatpak/exports/bin', '/usr/bin/site_perl', '/usr/bin/vendor_perl', '/usr/bin/core_perl', '/var/lib/snapd/snap/bin', '/home/aidan/.local/bin', '/home/aidan/.local/bin'] var='AR' -> ['arm-none-eabi-ar']
 ----------------------------------------
 Found Pebble SDK for diorite in:
 /home/aidan/.pebble-sdk/SDKs/current/sdk-core/pebble/diorite
 ----------------------------------------
 Checking for program 'gcc, cc'
 arm-none-eabi-gcc
-find program=['gcc', 'cc'] paths=['/var/tmp/pebble-sdk/SDKs/4.9.148/toolchain/moddable-tools', '/home/aidan/.pebble-sdk/SDKs/4.9.148/toolchain/arm-none-eabi/bin', '/home/aidan/.local/share/uv/tools/pebble-tool/lib/python3.13/site-packages/pebble_tool/commands/sdk', '/home/aidan/.pebble-sdk/SDKs/4.9.148/toolchain/bin', '/home/aidan/.local/bin', '/usr/local/bin', '/usr/bin', '/bin', '/usr/local/sbin', '/var/lib/flatpak/exports/bin', '/usr/bin/site_perl', '/usr/bin/vendor_perl', '/usr/bin/core_perl', '/opt/rocm/bin'] var='CC' -> ['arm-none-eabi-gcc']
+find program=['gcc', 'cc'] paths=['/var/tmp/pebble-sdk/SDKs/4.9.148/toolchain/moddable-tools', '/home/aidan/.pebble-sdk/SDKs/4.9.148/toolchain/arm-none-eabi/bin', '/home/aidan/.local/share/uv/tools/pebble-tool/lib/python3.13/site-packages/pebble_tool/commands/sdk', '/home/aidan/.pebble-sdk/SDKs/4.9.148/toolchain/bin', '/home/aidan/miniforge3/condabin', '/usr/local/bin', '/usr/bin', '/bin', '/usr/local/sbin', '/var/lib/flatpak/exports/bin', '/usr/bin/site_perl', '/usr/bin/vendor_perl', '/usr/bin/core_perl', '/var/lib/snapd/snap/bin', '/home/aidan/.local/bin', '/home/aidan/.local/bin'] var='CC' -> ['arm-none-eabi-gcc']
 ['arm-none-eabi-gcc', '-dM', '-E', '-']
 out: #define __DBL_MIN_EXP__ (-1021)
 #define __HQ_FBIT__ 15
@@ -1675,14 +1675,14 @@ out: #define __DBL_MIN_EXP__ (-1021)
 ----------------------------------------
 Checking for program 'ar'
 arm-none-eabi-ar
-find program=['ar'] paths=['/var/tmp/pebble-sdk/SDKs/4.9.148/toolchain/moddable-tools', '/home/aidan/.pebble-sdk/SDKs/4.9.148/toolchain/arm-none-eabi/bin', '/home/aidan/.local/share/uv/tools/pebble-tool/lib/python3.13/site-packages/pebble_tool/commands/sdk', '/home/aidan/.pebble-sdk/SDKs/4.9.148/toolchain/bin', '/home/aidan/.local/bin', '/usr/local/bin', '/usr/bin', '/bin', '/usr/local/sbin', '/var/lib/flatpak/exports/bin', '/usr/bin/site_perl', '/usr/bin/vendor_perl', '/usr/bin/core_perl', '/opt/rocm/bin'] var='AR' -> ['arm-none-eabi-ar']
+find program=['ar'] paths=['/var/tmp/pebble-sdk/SDKs/4.9.148/toolchain/moddable-tools', '/home/aidan/.pebble-sdk/SDKs/4.9.148/toolchain/arm-none-eabi/bin', '/home/aidan/.local/share/uv/tools/pebble-tool/lib/python3.13/site-packages/pebble_tool/commands/sdk', '/home/aidan/.pebble-sdk/SDKs/4.9.148/toolchain/bin', '/home/aidan/miniforge3/condabin', '/usr/local/bin', '/usr/bin', '/bin', '/usr/local/sbin', '/var/lib/flatpak/exports/bin', '/usr/bin/site_perl', '/usr/bin/vendor_perl', '/usr/bin/core_perl', '/var/lib/snapd/snap/bin', '/home/aidan/.local/bin', '/home/aidan/.local/bin'] var='AR' -> ['arm-none-eabi-ar']
 ----------------------------------------
 Found Pebble SDK for chalk in:
 /home/aidan/.pebble-sdk/SDKs/current/sdk-core/pebble/chalk
 ----------------------------------------
 Checking for program 'gcc, cc'
 arm-none-eabi-gcc
-find program=['gcc', 'cc'] paths=['/var/tmp/pebble-sdk/SDKs/4.9.148/toolchain/moddable-tools', '/home/aidan/.pebble-sdk/SDKs/4.9.148/toolchain/arm-none-eabi/bin', '/home/aidan/.local/share/uv/tools/pebble-tool/lib/python3.13/site-packages/pebble_tool/commands/sdk', '/home/aidan/.pebble-sdk/SDKs/4.9.148/toolchain/bin', '/home/aidan/.local/bin', '/usr/local/bin', '/usr/bin', '/bin', '/usr/local/sbin', '/var/lib/flatpak/exports/bin', '/usr/bin/site_perl', '/usr/bin/vendor_perl', '/usr/bin/core_perl', '/opt/rocm/bin'] var='CC' -> ['arm-none-eabi-gcc']
+find program=['gcc', 'cc'] paths=['/var/tmp/pebble-sdk/SDKs/4.9.148/toolchain/moddable-tools', '/home/aidan/.pebble-sdk/SDKs/4.9.148/toolchain/arm-none-eabi/bin', '/home/aidan/.local/share/uv/tools/pebble-tool/lib/python3.13/site-packages/pebble_tool/commands/sdk', '/home/aidan/.pebble-sdk/SDKs/4.9.148/toolchain/bin', '/home/aidan/miniforge3/condabin', '/usr/local/bin', '/usr/bin', '/bin', '/usr/local/sbin', '/var/lib/flatpak/exports/bin', '/usr/bin/site_perl', '/usr/bin/vendor_perl', '/usr/bin/core_perl', '/var/lib/snapd/snap/bin', '/home/aidan/.local/bin', '/home/aidan/.local/bin'] var='CC' -> ['arm-none-eabi-gcc']
 ['arm-none-eabi-gcc', '-dM', '-E', '-']
 out: #define __DBL_MIN_EXP__ (-1021)
 #define __HQ_FBIT__ 15
@@ -2091,14 +2091,14 @@ out: #define __DBL_MIN_EXP__ (-1021)
 ----------------------------------------
 Checking for program 'ar'
 arm-none-eabi-ar
-find program=['ar'] paths=['/var/tmp/pebble-sdk/SDKs/4.9.148/toolchain/moddable-tools', '/home/aidan/.pebble-sdk/SDKs/4.9.148/toolchain/arm-none-eabi/bin', '/home/aidan/.local/share/uv/tools/pebble-tool/lib/python3.13/site-packages/pebble_tool/commands/sdk', '/home/aidan/.pebble-sdk/SDKs/4.9.148/toolchain/bin', '/home/aidan/.local/bin', '/usr/local/bin', '/usr/bin', '/bin', '/usr/local/sbin', '/var/lib/flatpak/exports/bin', '/usr/bin/site_perl', '/usr/bin/vendor_perl', '/usr/bin/core_perl', '/opt/rocm/bin'] var='AR' -> ['arm-none-eabi-ar']
+find program=['ar'] paths=['/var/tmp/pebble-sdk/SDKs/4.9.148/toolchain/moddable-tools', '/home/aidan/.pebble-sdk/SDKs/4.9.148/toolchain/arm-none-eabi/bin', '/home/aidan/.local/share/uv/tools/pebble-tool/lib/python3.13/site-packages/pebble_tool/commands/sdk', '/home/aidan/.pebble-sdk/SDKs/4.9.148/toolchain/bin', '/home/aidan/miniforge3/condabin', '/usr/local/bin', '/usr/bin', '/bin', '/usr/local/sbin', '/var/lib/flatpak/exports/bin', '/usr/bin/site_perl', '/usr/bin/vendor_perl', '/usr/bin/core_perl', '/var/lib/snapd/snap/bin', '/home/aidan/.local/bin', '/home/aidan/.local/bin'] var='AR' -> ['arm-none-eabi-ar']
 ----------------------------------------
 Found Pebble SDK for basalt in:
 /home/aidan/.pebble-sdk/SDKs/current/sdk-core/pebble/basalt
 ----------------------------------------
 Checking for program 'gcc, cc'
 arm-none-eabi-gcc
-find program=['gcc', 'cc'] paths=['/var/tmp/pebble-sdk/SDKs/4.9.148/toolchain/moddable-tools', '/home/aidan/.pebble-sdk/SDKs/4.9.148/toolchain/arm-none-eabi/bin', '/home/aidan/.local/share/uv/tools/pebble-tool/lib/python3.13/site-packages/pebble_tool/commands/sdk', '/home/aidan/.pebble-sdk/SDKs/4.9.148/toolchain/bin', '/home/aidan/.local/bin', '/usr/local/bin', '/usr/bin', '/bin', '/usr/local/sbin', '/var/lib/flatpak/exports/bin', '/usr/bin/site_perl', '/usr/bin/vendor_perl', '/usr/bin/core_perl', '/opt/rocm/bin'] var='CC' -> ['arm-none-eabi-gcc']
+find program=['gcc', 'cc'] paths=['/var/tmp/pebble-sdk/SDKs/4.9.148/toolchain/moddable-tools', '/home/aidan/.pebble-sdk/SDKs/4.9.148/toolchain/arm-none-eabi/bin', '/home/aidan/.local/share/uv/tools/pebble-tool/lib/python3.13/site-packages/pebble_tool/commands/sdk', '/home/aidan/.pebble-sdk/SDKs/4.9.148/toolchain/bin', '/home/aidan/miniforge3/condabin', '/usr/local/bin', '/usr/bin', '/bin', '/usr/local/sbin', '/var/lib/flatpak/exports/bin', '/usr/bin/site_perl', '/usr/bin/vendor_perl', '/usr/bin/core_perl', '/var/lib/snapd/snap/bin', '/home/aidan/.local/bin', '/home/aidan/.local/bin'] var='CC' -> ['arm-none-eabi-gcc']
 ['arm-none-eabi-gcc', '-dM', '-E', '-']
 out: #define __DBL_MIN_EXP__ (-1021)
 #define __HQ_FBIT__ 15
@@ -2507,14 +2507,14 @@ out: #define __DBL_MIN_EXP__ (-1021)
 ----------------------------------------
 Checking for program 'ar'
 arm-none-eabi-ar
-find program=['ar'] paths=['/var/tmp/pebble-sdk/SDKs/4.9.148/toolchain/moddable-tools', '/home/aidan/.pebble-sdk/SDKs/4.9.148/toolchain/arm-none-eabi/bin', '/home/aidan/.local/share/uv/tools/pebble-tool/lib/python3.13/site-packages/pebble_tool/commands/sdk', '/home/aidan/.pebble-sdk/SDKs/4.9.148/toolchain/bin', '/home/aidan/.local/bin', '/usr/local/bin', '/usr/bin', '/bin', '/usr/local/sbin', '/var/lib/flatpak/exports/bin', '/usr/bin/site_perl', '/usr/bin/vendor_perl', '/usr/bin/core_perl', '/opt/rocm/bin'] var='AR' -> ['arm-none-eabi-ar']
+find program=['ar'] paths=['/var/tmp/pebble-sdk/SDKs/4.9.148/toolchain/moddable-tools', '/home/aidan/.pebble-sdk/SDKs/4.9.148/toolchain/arm-none-eabi/bin', '/home/aidan/.local/share/uv/tools/pebble-tool/lib/python3.13/site-packages/pebble_tool/commands/sdk', '/home/aidan/.pebble-sdk/SDKs/4.9.148/toolchain/bin', '/home/aidan/miniforge3/condabin', '/usr/local/bin', '/usr/bin', '/bin', '/usr/local/sbin', '/var/lib/flatpak/exports/bin', '/usr/bin/site_perl', '/usr/bin/vendor_perl', '/usr/bin/core_perl', '/var/lib/snapd/snap/bin', '/home/aidan/.local/bin', '/home/aidan/.local/bin'] var='AR' -> ['arm-none-eabi-ar']
 ----------------------------------------
 Found Pebble SDK for aplite in:
 /home/aidan/.pebble-sdk/SDKs/current/sdk-core/pebble/aplite
 ----------------------------------------
 Checking for program 'gcc, cc'
 arm-none-eabi-gcc
-find program=['gcc', 'cc'] paths=['/var/tmp/pebble-sdk/SDKs/4.9.148/toolchain/moddable-tools', '/home/aidan/.pebble-sdk/SDKs/4.9.148/toolchain/arm-none-eabi/bin', '/home/aidan/.local/share/uv/tools/pebble-tool/lib/python3.13/site-packages/pebble_tool/commands/sdk', '/home/aidan/.pebble-sdk/SDKs/4.9.148/toolchain/bin', '/home/aidan/.local/bin', '/usr/local/bin', '/usr/bin', '/bin', '/usr/local/sbin', '/var/lib/flatpak/exports/bin', '/usr/bin/site_perl', '/usr/bin/vendor_perl', '/usr/bin/core_perl', '/opt/rocm/bin'] var='CC' -> ['arm-none-eabi-gcc']
+find program=['gcc', 'cc'] paths=['/var/tmp/pebble-sdk/SDKs/4.9.148/toolchain/moddable-tools', '/home/aidan/.pebble-sdk/SDKs/4.9.148/toolchain/arm-none-eabi/bin', '/home/aidan/.local/share/uv/tools/pebble-tool/lib/python3.13/site-packages/pebble_tool/commands/sdk', '/home/aidan/.pebble-sdk/SDKs/4.9.148/toolchain/bin', '/home/aidan/miniforge3/condabin', '/usr/local/bin', '/usr/bin', '/bin', '/usr/local/sbin', '/var/lib/flatpak/exports/bin', '/usr/bin/site_perl', '/usr/bin/vendor_perl', '/usr/bin/core_perl', '/var/lib/snapd/snap/bin', '/home/aidan/.local/bin', '/home/aidan/.local/bin'] var='CC' -> ['arm-none-eabi-gcc']
 ['arm-none-eabi-gcc', '-dM', '-E', '-']
 out: #define __DBL_MIN_EXP__ (-1021)
 #define __HQ_FBIT__ 15
@@ -2923,4 +2923,4 @@ out: #define __DBL_MIN_EXP__ (-1021)
 ----------------------------------------
 Checking for program 'ar'
 arm-none-eabi-ar
-find program=['ar'] paths=['/var/tmp/pebble-sdk/SDKs/4.9.148/toolchain/moddable-tools', '/home/aidan/.pebble-sdk/SDKs/4.9.148/toolchain/arm-none-eabi/bin', '/home/aidan/.local/share/uv/tools/pebble-tool/lib/python3.13/site-packages/pebble_tool/commands/sdk', '/home/aidan/.pebble-sdk/SDKs/4.9.148/toolchain/bin', '/home/aidan/.local/bin', '/usr/local/bin', '/usr/bin', '/bin', '/usr/local/sbin', '/var/lib/flatpak/exports/bin', '/usr/bin/site_perl', '/usr/bin/vendor_perl', '/usr/bin/core_perl', '/opt/rocm/bin'] var='AR' -> ['arm-none-eabi-ar']
+find program=['ar'] paths=['/var/tmp/pebble-sdk/SDKs/4.9.148/toolchain/moddable-tools', '/home/aidan/.pebble-sdk/SDKs/4.9.148/toolchain/arm-none-eabi/bin', '/home/aidan/.local/share/uv/tools/pebble-tool/lib/python3.13/site-packages/pebble_tool/commands/sdk', '/home/aidan/.pebble-sdk/SDKs/4.9.148/toolchain/bin', '/home/aidan/miniforge3/condabin', '/usr/local/bin', '/usr/bin', '/bin', '/usr/local/sbin', '/var/lib/flatpak/exports/bin', '/usr/bin/site_perl', '/usr/bin/vendor_perl', '/usr/bin/core_perl', '/var/lib/snapd/snap/bin', '/home/aidan/.local/bin', '/home/aidan/.local/bin'] var='AR' -> ['arm-none-eabi-ar']
