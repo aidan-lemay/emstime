@@ -1,0 +1,38 @@
+# Pebble SDK build output
+build/
+build-*
+.pebble-sdk/
+
+# Compiled C artifacts
+*.o
+*.a
+*.so
+*.dylib
+*.dll
+*.exe
+*.elf
+*.map
+*.bin
+*.hex
+*.pbw
+*.lock*
+
+# CMake build directories and generated files
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Editor and operating-system files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Logs and temporary files
+*.log
+*.tmp
