@@ -1,5 +1,5 @@
 # Pebble SDK build output
-build/
+build/*
 build-*
 .pebble-sdk/
 
@@ -16,6 +16,8 @@ build-*
 *.hex
 *.pbw
 *.lock*
+
+!build/emstime.pbw
 
 # CMake build directories and generated files
 cmake-build-*/
